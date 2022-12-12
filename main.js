@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	});
 	
 	video.style.position = "absolute";
-	video.style.width = render.domElement.width;
+	video.style.width = renderer.domElement.width;
 	renderer.domElement.style.position = "absolute";
 	
 	document.body.appendChild(video);
